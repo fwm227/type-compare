@@ -1,6 +1,6 @@
 {
   "name": "type-compare",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "better simple to check type of data",
   "main": "bundle.js",
   "scripts": {
