@@ -11,7 +11,7 @@ npm install type-compare --save
 ## :wrench: Usage
 ```javascript
 import typeCompare from 'type-compare';
-
+// result true
 typeCompare(null, 'null'); // true
 typeCompare(undefined, 'undefined'); // true
 typeCompare(true, 'boolean'); // true
@@ -24,4 +24,16 @@ typeCompare(new Number(), 'object.number'); // true
 typeCompare(new String(), 'object.string'); // true
 typeCompare(new Set(), 'object.set'); // true
 typeCompare(new Map(), 'object.map'); // true
+// result false
+typeCompare(undefined, 'null'); // false
+typeCompare(null, 'undefined'); // false
+typeCompare('true', 'boolean'); // false
+typeCompare('123', 'number'); // false
+typeCompare(123, 'string'); // false
+typeCompare(new Object(), 'array'); // false
+typeCompare(new Array(), 'object'); // false
+typeCompare(new Number('123'), 'object.string'); // false
+typeCompare(new String(123), 'object.number'); // false
+typeCompare(new Set(), 'object.object'); // false
+typeCompare(new Map(), 'object.object'); // false
 ```

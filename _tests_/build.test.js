@@ -1,7 +1,7 @@
 const typeCompare = require('../bundle.js');
 
 test('type-compare test', () => {
-  // true test
+  // test that compare result is true
   expect(typeCompare(null, 'null')).toBeTruthy();
   expect(typeCompare(undefined, 'undefined')).toBeTruthy();
   expect(typeCompare(true, 'boolean')).toBeTruthy();
@@ -14,7 +14,7 @@ test('type-compare test', () => {
   expect(typeCompare(new String(), 'object.string')).toBeTruthy();
   expect(typeCompare(new Set(), 'object.set')).toBeTruthy();
   expect(typeCompare(new Map(), 'object.map')).toBeTruthy();
-  // fase test
+  // test that compare result is false
   expect(typeCompare(undefined, 'null')).toBeFalsy();
   expect(typeCompare(null, 'undefined')).toBeFalsy();
   expect(typeCompare('true', 'boolean')).toBeFalsy();
