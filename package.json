@@ -23,6 +23,7 @@
   },
   "homepage": "https://github.com/reming0227/type-compare#readme",
   "devDependencies": {
-    "jest": "^24.8.0"
+    "jest": "^24.8.0",
+    "rollup": "^1.14.4"
   }
 }
