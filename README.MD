@@ -1,6 +1,6 @@
-## Type Compare
+## type-compare
 
-### check type for data
+> better simple to check type of data
 
 ## :bulb: Installation
 
