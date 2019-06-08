@@ -1,8 +1,8 @@
 {
   "name": "type-compare",
   "version": "1.0.0",
-  "description": "check type for data",
-  "main": "index.js",
+  "description": "better simple to check type of data",
+  "main": "bundle.js",
   "scripts": {
     "build": "rollup --config",
     "test": "jest"

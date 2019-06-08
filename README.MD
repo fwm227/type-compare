@@ -1,5 +1,8 @@
 ## type-compare
 
+[![Build Status](https://travis-ci.org/reming0227/type-compare.svg?branch=master)](https://travis-ci.org/reming0227/type-compare)
+[![Version](https://img.shields.io/badge/npm-1.0.0-blue.svg)](https://www.npmjs.com/package/type-compare)
+
 > better simple to check type of data
 
 ## :bulb: Installation
