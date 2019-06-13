@@ -1,7 +1,7 @@
 {
   "name": "type-compare",
-  "version": "1.0.1",
-  "description": "better simple to check type of data",
+  "version": "1.0.2",
+  "description": "better simple and accurate to check type of data",
   "main": "bundle.js",
   "scripts": {
     "build": "rollup --config",
