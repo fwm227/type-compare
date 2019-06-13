@@ -3,15 +3,15 @@
 [![Build Status](https://travis-ci.org/reming0227/type-compare.svg?branch=master)](https://travis-ci.org/reming0227/type-compare)
 [![Version](https://img.shields.io/badge/npm-1.0.1-blue.svg)](https://www.npmjs.com/package/type-compare)
 
-> better simple to check type of data
+> better simple and accurate to check type of data
 
-## :bulb: Installation
+## :package: Installation
 
 ```javascript
 npm install type-compare --save
 ```
 
-## :wrench: Usage
+## :hammer: Usage
 ```javascript
 import typeCompare from 'type-compare';
 // result true
